@@ -7,6 +7,6 @@ const textColor = document.querySelector("span")
 
 btnColor.addEventListener('click', (event) => {
   const randomColor = getRandomHexColor();
-  document.body.style.backgroundColor = getRandomHexColor();
+  document.body.style.backgroundColor = randomColor;
   textColor.textContent = randomColor;
-})
+});
